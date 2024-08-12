@@ -1,0 +1,183 @@
+
+/* Main */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: Geranium;
+    animation: opening 0.735s;
+    background-color: lightskyblue;
+    background-image: linear-gradient(to right, lightskyblue, white);
+}
+@keyframes opening {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+.center {
+    text-align: center;
+}
+h2 {
+    font-size: 35px;
+    font-family: Geranium;
+}
+h3 {
+    font-size: 27px;
+    font-family: Geranium;
+}
+a {
+    color: gold;
+}
+/* Old colors */
+/* Name rgb(234, 103, 16)*/
+/* Skill rgb(87, 154, 42)*/
+/* Project rgb(34, 42, 67)*/
+/* Contact rgb(40, 171, 147)*/
+
+/* Footers */
+footer {
+    text-decoration: none;
+    font-size: 2em;
+    margin-top: 199px;
+    text-align: center;
+    font-family: Geranium;
+    box-shadow: 0px 5px 35px black;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+}
+.footername {
+    background-color: rgba(238, 137, 69, 1);
+    color: white;
+}
+.footercontact {
+    background-color: rgba(74, 203, 179, 1);
+    color: white;
+}
+.footerproject {
+    background-color: rgba(91, 112, 174, 1);
+    color: white;
+}
+.footerskills {
+    background-color: rgb(87, 154, 42);
+    color: white;
+}
+/* Navigation bar */
+.container-fluid {
+    font-family: Geranium;
+}
+/* Name */
+.main {
+    padding-top: 100px;
+}
+img {
+    width: 200px;
+    height:auto;
+    border: 0px none;
+    border-radius: 10px;
+}
+.contentname .cardname{
+    margin: 20px;
+    background-color: rgba(238, 137, 69, 1);
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 5px 25px black;
+    font-family: Geranium;
+}
+.contentname .cardname:hover{
+    transform: scale(1.11);
+}
+.contentname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.name{
+    padding-top: 100px;
+    text-align: center;
+}
+/* Skills */
+.contentskills .cardskills{
+    margin: 20px;
+    background-color: rgb(87, 154, 42);
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 5px 25px black;
+    font-family: Geranium;
+}
+.contentskills .cardskills:hover{
+    transform: scale(1.11);
+}
+.contentskills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.video video{
+    height: auto;
+    flex-wrap: nowrap;
+    background-color:lemonchiffon;
+    width: 450px;
+    height: auto;
+    text-align: center;
+    border: 5px solid;
+    margin: 20px;
+}
+.skills{
+    padding-top: 100px;
+    text-align: center;
+}
+/* Projects */
+.projects{
+    padding-top: 100px;
+    text-align: center;
+}
+.contentproject{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contentproject .cardproject{
+    margin: 20px;
+    background-color: rgba(91, 112, 174, 1);
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 5px 25px black;
+    font-family: Geranium;
+}
+.contentproject .cardproject:hover{
+    transform: scale(1.11);
+}
+/* Contacts */
+.contentcontacts .cardcontacts{
+    margin: 20px;
+    background-color: rgba(74, 203, 179, 1 );
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 5px 25px black;
+    font-family: Geranium;
+}
+.contentcontacts .cardcontacts:hover{
+    transform: scale(1.11);
+}
+.contentcontacts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contacts{
+    padding-top: 100px;
+    text-align: center;
+}
